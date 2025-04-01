@@ -17,7 +17,7 @@ All contributors must adhere to our [Code of Conduct](https://example.com/code-o
 
 ## Licensing & Copyright
 
-All contributions are made under the {doc}`MIT License <../../LICENSE.md>`, ensuring the project remains free and open for public use. Contributors retain the copyright to their contributions but agree to license them under MIT to support the project's mission.
+All contributions are made under the `MIT License`, ensuring the project remains free and open for public use. Contributors retain the copyright to their contributions but agree to license them under MIT to support the project's mission.
 
 ## Getting Started
 

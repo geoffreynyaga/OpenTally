@@ -11,6 +11,6 @@ OpenTally🇰🇪 enhances trust in elections through openness and public partic
    :hidden:
    :maxdepth: 2
 
-   Set up the documentation </content/set-up>
+   Set up the documentation </guidelines/set-up>
 
-   /content/contributing
+   /guidelines/contributing
