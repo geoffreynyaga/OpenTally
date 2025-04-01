@@ -231,9 +231,7 @@ extensions = [
 
 # Excludes files or directories from processing
 
-exclude_patterns = [
-    "doc-cheat-sheet*",
-]
+exclude_patterns = ["doc-cheat-sheet*", "content"]
 
 # Adds custom CSS files, located under 'html_static_path'
 
