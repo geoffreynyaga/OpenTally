@@ -1,5 +1,5 @@
-import datetime
 import ast
+import datetime
 
 # Configuration for the Sphinx documentation builder.
 # All configuration specific to your project should be done in this file.
@@ -23,8 +23,8 @@ import ast
 #
 # TODO: Update with the official name of your project or product
 
-project = "Documentation starter pack"
-author = "Canonical Ltd."
+project = "OpenTally"
+author = "Geoffrey Nyaga Kinyua"
 
 
 # Sidebar documentation title; best kept reasonably short
@@ -105,41 +105,22 @@ html_context = {
     # TODO: If there's no such website,
     #       remove the {{ product_page }} link from the page header template
     #       (usually .sphinx/_templates/header.html; also, see README.rst).
-    "product_page": "documentation.ubuntu.com",
+    "product_page": "Home Page",
     # Product tag image; the orange part of your logo, shown in the page header
     #
     # TODO: To add a tag image, uncomment and update as needed.
     # 'product_tag': '_static/tag.png',
     # Your Discourse instance URL
-    #
-    # TODO: Change to your Discourse instance URL or leave empty.
-    #
-    # NOTE: If set, adding ':discourse: 123' to an .rst file
-    #       will add a link to Discourse topic 123 at the bottom of the page.
-    "discourse": "https://discourse.ubuntu.com",
-    # Your Mattermost channel URL
-    #
-    # TODO: Change to your Mattermost channel URL or leave empty.
-    "mattermost": "https://chat.canonical.com/canonical/channels/documentation",
-    # Your Matrix channel URL
-    #
-    # TODO: Change to your Matrix channel URL or leave empty.
-    "matrix": "https://matrix.to/#/#documentation:ubuntu.com",
-    # Your documentation GitHub repository URL
-    #
     # TODO: Change to your documentation GitHub repository URL or leave empty.
-    #
     # NOTE: If set, links for viewing the documentation source files
     #       and creating GitHub issues are added at the bottom of each page.
-    "github_url": "https://github.com/canonical/sphinx-docs-starter-pack",
+    "github_url": "https://github.com/geoffreynyaga/opentally",
     # Docs branch in the repo; used in links for viewing the source files
     #
     # TODO: To customise the branch, uncomment and update as needed.
-    'repo_default_branch': 'main',
+    "repo_default_branch": "main",
     # Docs location in the repo; used in links for viewing the source files
     #
-
-
     # TODO: To customise the directory, uncomment and update as needed.
     "repo_folder": "/docs/",
     # TODO: To enable or disable the Previous / Next buttons at the bottom of pages
@@ -147,9 +128,8 @@ html_context = {
     # "sequential_nav": "both",
     # TODO: To enable listing contributors on individual pages, set to True
     "display_contributors": False,
-
-    # Required for feedback button    
-    'github_issues': 'enabled',
+    # Required for feedback button
+    "github_issues": "enabled",
 }
 
 # TODO: To enable the edit button on pages, uncomment and change the link to a
@@ -201,10 +181,7 @@ redirects = {}
 #
 # TODO: Remove or adjust the ACME entry after you update the contributing guide
 
-linkcheck_ignore = [
-    "http://127.0.0.1:8000",
-    "https://github.com/canonical/ACME/*"
-    ]
+linkcheck_ignore = ["http://127.0.0.1:8000", "https://github.com/canonical/ACME/*"]
 
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'
@@ -309,5 +286,5 @@ rst_prolog = """
 
 # Workaround for https://github.com/canonical/canonical-sphinx/issues/34
 
-if "discourse_prefix" not in html_context and "discourse" in html_context:
-    html_context["discourse_prefix"] = html_context["discourse"] + "/t/"
+# if "discourse_prefix" not in html_context and "discourse" in html_context:
+#     html_context["discourse_prefix"] = html_context["discourse"] + "/t/"
